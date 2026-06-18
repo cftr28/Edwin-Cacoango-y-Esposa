@@ -581,6 +581,36 @@
     .contenedor-cards { 
         gap:15px !important; 
     } 
+    /* ==========================
+   FIX FINAL PADRES Y PADRINOS (ESPACIO ARRIBA)
+========================== */
+
+/* Reduce espacio general de la sección */
+.seccion-familia{
+    padding:20px 10px !important;
+}
+
+/* Tarjetas más compactas (esto elimina el “aire” grande) */
+.card{
+    padding:20px 15px !important;
+    margin:0 !important;
+}
+
+/* Título más pegado al contenido */
+.titulo-card{
+    margin:0 0 10px 0 !important;
+    padding:0 !important;
+}
+
+/* Centrado REAL interno */
+.info-padres{
+    margin-top:5px !important;
+}
+
+/* Si sigue viéndose “bajado”, esto lo corrige */
+.contenedor-cards{
+    align-items:flex-start !important;
+}
 }
 
 
